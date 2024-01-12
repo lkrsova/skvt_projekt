@@ -2127,3 +2127,87 @@ Unreal Editor may become unresponsive.
 [2024.01.12-16.21.18:838][ 62]SourceControl: Error: fatal: Invalid path '/Temp/Untitled_1_InstanceOf_': No such file or directory
 [2024.01.12-16.21.18:838][ 62]SourceControl: Error: fatal: Invalid path '/Temp/Untitled_1_InstanceOf_': No such file or directory
 [2024.01.12-16.21.18:838][ 62]SourceControl: Error: fatal: Invalid path '/Temp/Untitled_1_InstanceOf_': No such file or directory
+[2024.01.12-16.22.28:044][222]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.01.12-16.22.28:065][222]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.01.12-16.22.40:445][413]LogSlate: Window 'New Uncontrolled Changelist...' being destroyed
+[2024.01.12-16.22.42:233][611]LogSlate: Window 'View Changes' being destroyed
+[2024.01.12-16.22.42:237][611]LogSlate: Window 'View Changes' being destroyed
+[2024.01.12-16.24.59:944][319]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.12-16.24.59:948][319]LogContentBundle: [skvt_projekt_zkouska(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.12-16.24.59:948][319]LogWorldPartition: Display: GenerateStreaming for 'skvt_projekt_zkouska' started...
+[2024.01.12-16.24.59:953][319]LogWorldPartition: Display: GenerateStreaming for 'skvt_projekt_zkouska' took 3 ms
+[2024.01.12-16.24.59:953][319]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.12-16.24.59:953][319]PIE: New page: PIE session: skvt_projekt_zkouska (12. 1. 2024 18:24:59)
+[2024.01.12-16.24.59:955][319]LogOnline: OSS: Created online subsystem instance for: NULL
+[2024.01.12-16.24.59:955][319]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2024.01.12-16.24.59:955][319]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_skvt_projekt_zkouska
+[2024.01.12-16.24.59:963][319]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007460s)
+[2024.01.12-16.24.59:963][319]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/skvt_projekt_zkouska.skvt_projekt_zkouska to /Game/UEDPIE_0_skvt_projekt_zkouska.skvt_projekt_zkouska (0.007488s)
+[2024.01.12-16.24.59:969][319]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.01.12-16.24.59:970][319]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.12-16.24.59:970][319]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.12-16.24.59:970][319]LogAIModule: Creating AISystem for world skvt_projekt_zkouska
+[2024.01.12-16.24.59:971][319]LogWorldPartition: ULevel::OnLevelLoaded(skvt_projekt_zkouska)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.12-16.24.59:971][319]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.12-16.24.59:971][319]LogWorldPartition: UWorldPartition::Initialize : World = skvt_projekt_zkouska, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.12-16.24.59:971][319]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.12-16.24.59:973][319]LogContentBundle: [skvt_projekt_zkouska(Standalone)] Creating new contrainer.
+[2024.01.12-16.24.59:973][319]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 239 ms)
+[2024.01.12-16.24.59:973][319]LogPlayLevel: PIE: World Init took: (0.002893s)
+[2024.01.12-16.24.59:973][319]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.01.12-16.24.59:973][319]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.12-16.24.59:973][319]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.12-16.24.59:973][319]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.12-16.24.59:973][319]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.12-16.24.59:973][319]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.12-16.24.59:973][319]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.12-16.24.59:973][319]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.12-16.24.59:973][319]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.12-16.24.59:973][319]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.12-16.24.59:973][319]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.12-16.24.59:973][319]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.12-16.24.59:975][319]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.12-16.24.59:990][319]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.01.12-16.24.59:990][319]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.12-16.24.59:990][319]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.12-16.24.59:990][319]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.12-16.24.59:991][319]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.01.12-16.24.59:991][319]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.01.12-16.24.59:992][319]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.01.12-16.24.59:992][319]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.01.12-16.24.59:992][319]LogInit: FAudioDevice initialized with ID 2.
+[2024.01.12-16.24.59:992][319]LogAudio: Display: Audio Device (ID: 2) registered with world 'skvt_projekt_zkouska'.
+[2024.01.12-16.24.59:992][319]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.01.12-16.24.59:994][319]LogLoad: Game class is 'GameModeBase'
+[2024.01.12-16.24.59:995][319]LogWorld: Bringing World /Game/UEDPIE_0_skvt_projekt_zkouska.skvt_projekt_zkouska up for play (max tick rate 0) at 2024.01.12-17.24.59
+[2024.01.12-16.24.59:995][319]LogWorld: Bringing up level for play took: 0.000815
+[2024.01.12-16.24.59:996][319]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2024.01.12-16.24.59:999][319]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(45), CellsToLoad(0), CellsToUnload(0)
+[2024.01.12-16.24.59:999][319]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-200.000 Y=0.000 Z=92.000,P=0.000000 Y=180.000000 R=-0.000000
+[2024.01.12-16.25.00:001][319]LogStreaming: Display: FlushAsyncLoading(): 65 QueuedPackages, 0 AsyncPackages
+[2024.01.12-16.25.00:152][319]LogPhysics: Warning: UpdateBodyScale: Unimplemented ImplicitObject of type: 4 skipped.
+[2024.01.12-16.25.00:152][319]LogPhysics: Warning: UpdateBodyScale: Unimplemented ImplicitObject of type: 4 skipped.
+[2024.01.12-16.25.00:152][319]LogPhysics: Warning: UpdateBodyScale: Unimplemented ImplicitObject of type: 4 skipped.
+[2024.01.12-16.25.00:152][319]LogPhysics: Warning: UpdateBodyScale: Unimplemented ImplicitObject of type: 4 skipped.
+[2024.01.12-16.25.00:191][319]PIE: Server logged in
+[2024.01.12-16.25.00:191][319]PIE: Play in editor total start time 0,242 seconds.
+[2024.01.12-16.25.28:731][668]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.12-16.25.28:731][668]LogWorld: BeginTearingDown for /Game/UEDPIE_0_skvt_projekt_zkouska
+[2024.01.12-16.25.28:742][668]LogWorld: UWorld::CleanupWorld for skvt_projekt_zkouska, bSessionEnded=true, bCleanupResources=true
+[2024.01.12-16.25.28:742][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.12-16.25.28:742][668]LogContentBundle: [skvt_projekt_zkouska(Standalone)] Deleting container.
+[2024.01.12-16.25.28:745][668]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.12-16.25.28:746][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.12-16.25.28:755][668]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.12-16.25.28:755][668]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.01.12-16.25.28:755][668]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.01.12-16.25.28:757][668]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.01.12-16.25.28:759][668]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.12-16.25.28:770][668]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.01.12-16.25.28:841][669]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2024.01.12-16.25.35:173][315]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.12-16.25.35:236][315]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/skvt_projekt_zkouska/F/16/LI53DJA3LZB46WKZ581SL5
+[2024.01.12-16.25.35:237][315]LogSavePackage: Moving 'C:/Users/lenka.krsova/OneDrive - Warhorse Studios s.r.o/Plocha/UE projects/skvt_projekt/skvt_projekt/Saved/LI53DJA3LZB46WKZ581SL555BABEBA43F70A363894B0A1CA705B9B.tmp' to 'C:/Users/lenka.krsova/OneDrive - Warhorse Studios s.r.o/Plocha/UE projects/skvt_projekt/skvt_projekt/Content/__ExternalActors__/skvt_projekt_zkouska/F/16/LI53DJA3LZB46WKZ581SL5.uasset'
+[2024.01.12-16.25.35:243][315]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 32.7 sec)
+[2024.01.12-16.25.35:244][315]AssetCheck: New page: Asset Save: StaticMeshActor_UAID_74563C5521F5E8CE01_1450218529
+[2024.01.12-16.25.35:244][315]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/skvt_projekt_zkouska.skvt_projekt_zkouska:PersistentLevel.StaticMeshActor_UAID_74563C5521F5E8CE01_1450218529
